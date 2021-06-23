@@ -1,0 +1,32 @@
+
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"id": 22, "name": "Michał", "surname": "Nowiński", "age": 10, "isVegan": true}" http://localhost:8098/buckets/s22778/keys/22
+curl -i -XPUT -H "Content-Type: application/json" -d "{"id": 33, "name": "Jacek", "surname": "Nowak", "age": 43, "isVegan": false}" http://localhost:8098/buckets/s22778/keys/33
+curl -i -XPUT -H "Content-Type: application/json" -d "{"id": 44, "name": "Grzegorz", "surname": "Kowal", "age": 15, "isVegan": true}" http://localhost:8098/buckets/s22778/keys/44
+
+2.
+curl -i -XGET  http://localhost:8098/buckets/s22778/keys/22
+
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"id": 22, "name": "Michał", "surname": "Nowiński", "age": 10, "isVegan": true, "field": ":)"}" http://localhost:8098/buckets/s22778/keys/22
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"id": 22, "name": "Michał", "age": 10, "isVegan": true, "field": ":)"}" http://localhost:8098/buckets/s22778/keys/22
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"id": 22, "name": "Michałek", "age": 10, "isVegan": true, "field": ":)"}" http://localhost:8098/buckets/s22778/keys/22
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s22778/keys/33
+
+7.
+curl -i -XGET  http://localhost:8098/buckets/s22778/keys/33
+
+8.
+curl -i -XPOST -H "Content-Type: application/json" -d "{"Zadanie": 8}" http://localhost:8098/buckets/s22778/keys
+
+9.
+curl -i -XGET  http://localhost:8098/buckets/s22778/keys/W307IitrhURsYTcf6wXE1hxtvFB
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s22778/keys/W307IitrhURsYTcf6wXE1hxtvFB

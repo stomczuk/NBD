@@ -1,0 +1,106 @@
+1.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:38:31 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:41:56 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:42:42 GMT
+Content-Type: application/json
+Content-Length: 0
+
+2.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvq+3VPGECCUy5rEybOf0uMWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22778>; rel="up"
+Last-Modified: Wed, 23 Jun 2021 19:38:31 GMT
+ETag: "78iUpIXV0F76gE6ex9oPxN"
+Date: Wed, 23 Jun 2021 19:38:38 GMT
+Content-Type: application/json
+Content-Length: 65
+
+{id: 22, name: Michal, surname: Nowinski, age: 10, isVegan: true}
+
+3.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:45:04 GMT
+Content-Type: application/json
+Content-Length: 0
+
+4.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:46:13 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:47:22 GMT
+Content-Type: application/json
+Content-Length: 0
+
+6.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:48:27 GMT
+Content-Type: application/json
+Content-Length: 0
+
+7.
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:48:36 GMT
+Content-Type: text/plain
+Content-Length: 10
+not found
+
+8.
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s22778/keys/W307IitrhURsYTcf6wXE1hxtvFB
+Date: Wed, 23 Jun 2021 19:52:49 GMT
+Content-Type: application/json
+Content-Length: 0
+
+9.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvq935LQBspkymBIZ81gZBHk9bvFlAQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22778>; rel="up"
+Last-Modified: Wed, 23 Jun 2021 19:52:49 GMT
+ETag: "20JLxMklmM3iNhKLgPW9G5"
+Date: Wed, 23 Jun 2021 19:53:30 GMT
+Content-Type: application/json
+Content-Length: 12
+
+{Zadanie: 8}
+
+10.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 23 Jun 2021 19:54:23 GMT
+Content-Type: application/json
+Content-Length: 0
