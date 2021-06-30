@@ -1,0 +1,5 @@
+Dodano studenta
+Dane nowo dodanego studenta: {'name': 'Sebastian', 'surname': 'Tomczuk', 'isVegan': True}
+Zmodyfikowano pole isVegan: {'isVegan': False}
+student usuniety
+Pobrany usuniety student: None
